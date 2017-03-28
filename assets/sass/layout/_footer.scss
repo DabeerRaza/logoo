@@ -1,0 +1,155 @@
+    .footer-bg-color {
+        &:before {
+            content: '';
+            position: absolute;
+            top: 1700px;
+            left: 0;
+            height: 500px;
+            background: black;
+            width: 100%;
+        }
+    }
+    
+    .l-footer {
+        &.has__slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+    
+    //=============Layer----Footer=================================================
+    //=============Layer----Footer=================================================
+    .l-footer {
+        background-color: black;
+        width: 100%;
+        .has__title {
+            h3 {
+                color: white;
+                margin-top: 54px;
+            }
+            .hr-line {
+                width: 30px;
+                margin-top: 0px;
+                border-top: 5px solid white;
+            }
+            h5 {
+                text-align: center;
+                a {
+                    color: $primaryClr;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+            p {
+                text-align: center;
+            }
+        }
+        .has__contact {
+            text-align: center;
+            .middle-part {
+                a {
+                    text-decoration: none;
+                    &:hover {
+                        color: $primaryClr;
+                    }
+                    i {
+                        color: white;
+                        font-size: 40px;
+                        height: 40px;
+                        &:hover {
+                            color: $primaryClr;
+                        }
+                    }
+                    p {
+                        &:hover {
+                            color: $primaryClr;
+                        }
+                    }
+                }
+                em {
+                    color: $primaryClr;
+                }
+            }
+            @media only screen and (max-width: 480px) {
+                .middle-part {
+                    .googleplus,
+                    .facebook {
+                        width: 48%;
+                    }
+                    .twitter,
+                    .email {
+                        width: 48%;
+                    }
+                }
+            }
+            @media only screen and (max-width: 320px) {
+                .middle-part {
+                    .googleplus,
+                    .facebook {
+                       width: 96%;
+                    }
+                    .twitter,
+                    .email {
+                        width: 96%;
+                    }
+                }
+            }
+            .right-part {
+                a {
+                    height: 133px;
+                    cursor: pointer;
+                }
+                .map_btn {
+                    background: url(assets/img/map_btn.svg) no-repeat center center;
+                    width: 114px;
+                    height: 133px;
+                    display: inline-block;
+                    transform: scale(0.8);
+                    overflow: hidden;
+                    margin-bottom: -33px;
+                }
+                .form_btn {
+                    background: url(assets/img/form_btn.svg) no-repeat center center;
+                    width: 114px;
+                    height: 133px;
+                    display: inline-block;
+                    transform: scale(0.8);
+                    overflow: hidden;
+                    margin-bottom: -33px;
+                }
+                .footer_btn {
+                    background: url(assets/img/footer_btn.svg) no-repeat center center;
+                    width: 114px;
+                    height: 133px;
+                    display: inline-block;
+                    transform: scale(0.8);
+                    overflow: hidden;
+                    margin-bottom: -33px;
+                }
+                .header_btn {
+                    background: url(assets/img/header_btn.svg) no-repeat center center;
+                    width: 114px;
+                    height: 133px;
+                    display: inline-block;
+                    transform: scale(0.8);
+                    overflow: hidden;
+                    margin-bottom: -33px;
+                }
+            }
+            .copy__right {
+                p {
+                    text-align: center;
+                    margin-top: 70px;
+                }
+                @media only screen and (max-width: 767px){
+                    p{
+                        margin-top: 0px;
+                    }
+                }
+            }
+
+        }
+    }

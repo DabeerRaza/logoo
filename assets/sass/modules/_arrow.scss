@@ -1,0 +1,11 @@
+.single-arrow {
+	position: relative;
+    margin-left: 15px;
+	&:after {
+		content: '>';
+		position: absolute;
+		left: -15px;
+		font-size: 15px;
+		top: -4px;
+	}
+}

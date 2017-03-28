@@ -1,0 +1,104 @@
+/*!
+Theme Name: _innovia
+Theme URI: http://innoviadigital.com/
+Author: Danish Raza
+Author URI: http://innoviadigital.com
+Description: innovation theme 1.point.0
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: _innovia
+Tags:
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+@import "modules/sprite";
+
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+// @import "normalize";
+
+/*
+*	importing normalize from bootstrap
+*
+*/
+@import "typography/bootstrap_variable";
+// @import "bootstrap-flex";
+@import "bootstrap";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+@import "elements/tables";
+
+/*--------------------------------------------------------------
+# components
+--------------------------------------------------------------*/
+@import "components/components";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "form-site/form";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# modules
+--------------------------------------------------------------*/
+// @import "modules/alignments";
+// @import "modules/clearings";
+// @import "modules/infinite-scroll";
+// @import "modules/accessibility";
+@import "modules/modules";
+
+@import "non-modules/slick";
+
+
+/*--------------------------------------------------------------
+# Tools
+--------------------------------------------------------------*/
+@import "tools/tools";
+
+/*--------------------------------------------------------------
+# layout
+--------------------------------------------------------------*/
+@import "layout/layout";
